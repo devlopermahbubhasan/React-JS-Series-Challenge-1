@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='text-left'>
+        <h1>Mahbub Hasan Welcome JSk Challenge </h1>
+        <p>List of top 5 series</p>
+        <ol>
+          <li>Texas Chainsaw Massacre. Image via Netflix.</li>
+          <li>Despicable Me 2. Image via Universal. </li>
+          <li>St. Vincent.</li>
+          <li>The Tinder Swindler. Image via Netflix.</li>
+          <li>Downfall: The Case Against Boeing. Image via Sundance.</li>
+        </ol>
+        </div>
   );
 }
 
